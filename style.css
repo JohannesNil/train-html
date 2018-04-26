@@ -98,7 +98,12 @@ footer .content {
   height: 295px; }
 
 #left-p {
-  float: left; }
+  float: left;
+  padding-right: 27px; }
+
+.green {
+  border: 1px solid #52a507;
+  text-shadow: 0 1px 1px #3a770c; }
 
 #right-p {
   float: right; }
@@ -194,6 +199,10 @@ footer h3 {
   text-shadow: 0 1px 1px #3a770c;
   background-color: #65c707;
   color: white; }
+
+#ticket-button:hover {
+  opacity: 0.9;
+  text-decoration: none; }
 
 .button {
   background-color: #65c707;
