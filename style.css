@@ -14,7 +14,8 @@ body {
   margin-bottom: 1.5em; }
   @media (max-width: 991px) and (min-width: 767px) {
     #top {
-      width: 100%; } }
+      width: 100%;
+      margin-bottom: 0.5em; } }
 
 #nav-style-id {
   transition: max-height 400ms;
@@ -26,6 +27,9 @@ body {
 #logotype img {
   max-width: 100%;
   height: auto; }
+
+.black-a {
+  color: black; }
 
 nav ul {
   list-style-type: none;
@@ -87,6 +91,9 @@ ul {
   float: left;
   margin-bottom: 10px;
   margin-top: 20px; }
+  @media (max-width: 991px) and (min-width: 767px) {
+    .film img {
+      margin-top: 15px; } }
 
 .film:nth-child(10) {
   margin-right: 0px; }
@@ -128,7 +135,8 @@ ul {
   color: white; }
   @media (max-width: 991px) and (min-width: 767px) {
     #ticket-button {
-      margin-top: 15px; } }
+      margin-top: 20px;
+      margin-bottom: 0px; } }
 
 #ticket-button:hover {
   opacity: 0.9;
@@ -259,7 +267,7 @@ footer {
   border-right: none;
   border-left: none;
   width: 100%;
-  margin-top: 0; }
+  margin-top: 3%; }
 
 footer .content {
   width: 977px;
