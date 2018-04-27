@@ -16,6 +16,10 @@ body {
     #top {
       width: 100%;
       margin-bottom: 0.5em; } }
+  @media (max-width: 767px) {
+    #top {
+      width: 100%;
+      margin-bottom: 0.5em; } }
 
 #nav-style-id {
   transition: max-height 400ms;
@@ -33,7 +37,8 @@ body {
 
 .black-a:hover {
   text-decoration: none;
-  color: #39BFF0; }
+  color: #39BFF0;
+  cursor: default; }
 
 nav ul {
   list-style-type: none;
@@ -56,6 +61,9 @@ nav a {
   color: #717171;
   font-size: 12px; }
 
+nav a:hover {
+  text-decoration: none; }
+
 nav h2 {
   margin: 0;
   padding: 0;
@@ -67,7 +75,8 @@ nav h2 {
 
 nav h2:hover {
   text-decoration: none;
-  color: #39BFF0; }
+  color: #39BFF0;
+  cursor: default; }
 
 header {
   position: relative;
@@ -120,6 +129,9 @@ ul {
   @media (max-width: 991px) and (min-width: 767px) {
     #bodyframe {
       width: 100%; } }
+  @media (max-width: 767px) {
+    #bodyframe {
+      width: 100%; } }
 
 .banner-presentkort img {
   width: 98%; }
@@ -148,7 +160,8 @@ ul {
 
 #ticket-button:hover {
   opacity: 0.9;
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: default; }
 
 .button {
   background-color: #65c707;
@@ -170,6 +183,14 @@ ul {
   @media (max-width: 991px) and (min-width: 767px) {
     .button {
       padding: 4% 4%;
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      margin-bottom: 1em;
+      float: right; } }
+  @media (max-width: 767px) {
+    .button {
+      padding: 5px 5px;
       width: 100%;
       text-align: center;
       margin: 0;
@@ -204,10 +225,16 @@ ul {
 #active-a {
   color: white; }
 
+#menu-button {
+  border: 1px solid black; }
+
+.icon-bar {
+  color: black; }
+
 .a-infobar {
   background-color: white;
   text-decoration: none;
-  padding: 10px 25px;
+  padding: 8px 25px;
   display: inline-block; }
   @media (max-width: 991px) and (min-width: 767px) {
     .a-infobar {
@@ -240,6 +267,9 @@ article h3 {
   display: block;
   float: left;
   border-right: 1px solid lightgrey; }
+  @media (max-width: 767px) {
+    #filter li {
+      width: 20%; } }
 
 footer .news {
   width: 400px;
@@ -248,6 +278,9 @@ footer .news {
   margin-right: 40px;
   margin-left: 27px; }
   @media (max-width: 991px) and (min-width: 767px) {
+    footer .news {
+      width: 40%; } }
+  @media (max-width: 767px) {
     footer .news {
       width: 40%; } }
 
@@ -262,6 +295,9 @@ footer ul {
   @media (max-width: 991px) and (min-width: 767px) {
     .advert {
       width: 24.5%; } }
+  @media (max-width: 767px) {
+    .advert {
+      width: 24.5%; } }
 
 .open {
   width: 200px;
@@ -269,6 +305,9 @@ footer ul {
   float: left;
   margin-right: 40px; }
   @media (max-width: 991px) and (min-width: 767px) {
+    .open {
+      width: 20%; } }
+  @media (max-width: 767px) {
     .open {
       width: 20%; } }
 
@@ -288,6 +327,11 @@ footer .content {
   @media (max-width: 991px) and (min-width: 767px) {
     footer .content {
       width: 100%; } }
+  @media (max-width: 767px) {
+    footer .content {
+      width: 100%;
+      height: 440px;
+      padding-left: 32px; } }
 
 #left-p {
   float: left;
@@ -304,6 +348,9 @@ footer .content {
 #right-p {
   float: right;
   padding-right: 5px; }
+  @media (max-width: 767px) {
+    #right-p {
+      float: left; } }
 
 #copy-details {
   color: #757575;
@@ -315,6 +362,10 @@ footer .content {
   @media (max-width: 991px) and (min-width: 767px) {
     #copy-details {
       width: 100%; } }
+  @media (max-width: 767px) {
+    #copy-details {
+      width: 100%;
+      height: 76px; } }
 
 footer .news a {
   border-bottom: 1px solid grey; }
@@ -342,6 +393,9 @@ footer ul li p {
 footer ul li a {
   color: black; }
 
+footer ul li a:hover {
+  color: #48cafa; }
+
 .date-p {
   color: #7b7b7b; }
 
@@ -352,3 +406,10 @@ footer h3 {
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px; }
+
+.info-a {
+  color: black; }
+
+.info-a:hover {
+  color: black;
+  text-decoration: none; }
