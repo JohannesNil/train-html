@@ -219,7 +219,8 @@ article h3 {
 
 #filter li {
   display: block;
-  float: left; }
+  float: left;
+  border-right: 1px solid lightgrey; }
 
 footer .news {
   width: 400px;
