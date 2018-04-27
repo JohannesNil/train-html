@@ -31,6 +31,10 @@ body {
 .black-a {
   color: black; }
 
+.black-a:hover {
+  text-decoration: none;
+  color: #39BFF0; }
+
 nav ul {
   list-style-type: none;
   height: 70px;
@@ -60,6 +64,10 @@ nav h2 {
   @media (max-width: 991px) and (min-width: 767px) {
     nav h2 {
       font-size: 110%; } }
+
+nav h2:hover {
+  text-decoration: none;
+  color: #39BFF0; }
 
 header {
   position: relative;
@@ -201,6 +209,9 @@ ul {
   text-decoration: none;
   padding: 10px 25px;
   display: inline-block; }
+  @media (max-width: 991px) and (min-width: 767px) {
+    .a-infobar {
+      padding: 8px 20px; } }
 
 article p {
   font-size: 19px; }
